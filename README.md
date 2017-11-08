@@ -1,11 +1,11 @@
 # SMS-behaviour-nudging
-This project is based on an initial design and implementation concept worked on at the 2017 Healthhack hackathon in Sydney. Using simple web forms, programmable SMS notification with Twilio, a RESTful like API using node.js and variable web content.
+This project is based on an initial design and implementation concept worked on at the 2017 Healthhack hackathon in Sydney. Using simple web forms, programmable SMS notification with Twilio, a RESTful like API using node.js and dynamic web content.
 
 ### Purpose
 Rather than having an another app or account to manage the user is able to recieve SMS notifications that link them to relevant webb content at times that suit them. The outcome of this is to enable a person to find the best evidence based strategies for behavioural change that work based on the context in which they are used. 
 
 ### Process Description
-The user is able to sign up for SMS notifications and have preferences set for when they are received. The SMS notification would contain shortlinks with a JSON web token than enables variable web content to be displayed. In the initial concept the web content presented strategies to use when interacting with someone who has a substance abuse problem, along with another notification preference for followup. This followup is for the strategy to be rated for effectiveness in the situation it was used. Editing time preferences for subsequent notifications can be set when the followup rating is done.
+The user is able to sign up for SMS notifications and have preferences set for when they are received. The SMS notification would contain shortlinks with a JSON web token than enables variable and dynamic web content to be displayed. In the initial concept the web content presented strategies to use when interacting with someone who has a substance abuse problem, along with another notification preference for followup. This followup is for the strategy to be rated for effectiveness in the situation it was used. Editing time preferences for subsequent notifications can be set when the followup rating is done.
 
 ### Proposed Discrete User Steps
 1. User comes to a webform and enters mobile phone number
@@ -17,7 +17,8 @@ The user is able to sign up for SMS notifications and have preferences set for w
 7. User selects their preference and submits the form
 8. User receives SMS notification at time chosen with a message containing a link
 9. User presses the link
-10. User is directed to webpage containing a animation to guide them through some basic breathing to reduce any anxiety being experienced 11. User finishes basic breathing activity and is presented content indicating a variety of behavioural change strategies
+10. User is directed to webpage containing a animation to guide them through some basic breathing to reduce any anxiety being experienced 
+11. User finishes basic breathing activity and is presented content indicating a variety of behavioural change strategies
 12. User cycles through strategies until they find the most appropriate one to test
 13. User presses a CTA button to 'try' strategy
 14. User is then presented with a webpage to choose a time for a followup SMS to rate the effectiveness of the selected strategy
