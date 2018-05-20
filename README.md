@@ -2,7 +2,7 @@
 This project is based on an initial design and implementation concept worked on at the 2017 Healthhack hackathon in Sydney. Using simple web forms, programmable SMS notification with Twilio, a RESTful like API using node.js and dynamic web content.
 
 ### Purpose
-Rather than having an another app or account to manage the user is able to recieve SMS notifications that link them to relevant webb content at times that suit them. The outcome of this is to enable a person to find the best evidence based strategies for behavioural change that work based on the context in which they are used. 
+Rather than having an another app or account to manage the user is able to recieve SMS notifications that link them to relevant web content at times that suit them. The outcome of this is to enable a person to find the best evidence based strategies for behavioural change that work based on the context in which they are used. 
 
 ### Process Description
 The user is able to sign up for SMS notifications and have preferences set for when they are received. The SMS notification would contain shortlinks with a JSON web token than enables variable and dynamic web content to be displayed. In the initial concept the web content presented strategies to use when interacting with someone who has a substance abuse problem, along with another notification preference for followup. This followup is for the strategy to be rated for effectiveness in the situation it was used. Editing time preferences for subsequent notifications can be set when the followup rating is done.
